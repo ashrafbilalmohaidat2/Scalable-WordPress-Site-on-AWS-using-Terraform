@@ -80,7 +80,3 @@ To destroy all resources:
 ```bash
 terraform destroy -var-file="secret.tfvars"
 ```
-
-## License
-
-This project is open source and available under the MIT License.
