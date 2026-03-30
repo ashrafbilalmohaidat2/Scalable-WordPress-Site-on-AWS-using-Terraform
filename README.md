@@ -10,7 +10,7 @@ This project deploys WordPress using a three-tier architecture:
 - **Application Tier**: EC2 instances with Auto Scaling in private subnets
 - **Data Tier**: RDS MySQL database and EFS for shared storage in database subnets
 
-![Architecture Diagram](ThreeTier-Wordpress%20(1).png)
+![Architecture Diagram](architecture.png)
 
 ## Features
 
