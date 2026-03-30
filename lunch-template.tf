@@ -16,7 +16,6 @@ resource "aws_launch_template" "lunch-template" {
       db_user = var.database-username
       db_pass = var.database-password
       db_host = aws_db_instance.rds-db.address
-      wordpress_url = "ashraf.clustersjo.dev"
     }))
 
     tag_specifications {
